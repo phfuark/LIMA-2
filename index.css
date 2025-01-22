@@ -1,0 +1,100 @@
+body 
+{
+  background-color: #F6CF57;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+.card
+{
+  margin:50px auto;
+  height: 500px;
+  max-width: 350px;
+  background: rgb(255,166,0);
+  background: linear-gradient(0deg, rgba(255,166,0,1) 0%, rgba(255,255,255,1) 100%);
+  border: 12px solid yellow;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 0 #111111;
+}
+
+.img-pokemon
+{
+  max-width: 400px;
+  border: 4px inset #daa520;
+  box-shadow: 2px 2px 5px 0px #333333;
+}
+
+.titulo-card
+{
+  font-weight: bold;
+  text-align: left;
+  font-size: 14pt;
+  padding-left: 12px;
+}
+
+.hp
+{
+  padding-right: 10px;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.dados
+{
+  font-size: 8pt;
+  padding: 2px;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,165,32,1) 100%);  
+}
+
+.texto-card
+{
+  text-align: left;
+  font-size: 10pt;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.destaque
+{
+  font-weight: bold;
+  text-align: left;
+  font-size: 10pt;
+  color:#993399;
+}
+hr
+{
+  border: 1px solid black;
+}
+.efeito
+{
+  text-align: center;
+  font-size: 8pt;
+}
+
+.efeito-dados
+{
+  text-align: center;
+  font-size: 24pt;
+}
+.simbolos
+{
+  font-size: 8pt;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.rodape-card
+{
+  border: 4px outset #daa520;
+  text-align: left;
+  font-size: 8pt;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
