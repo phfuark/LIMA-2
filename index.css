@@ -1,16 +1,24 @@
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body 
 {
   background-color: #F6CF57;
   text-align: center;
-  font-family: Verdana, sans-serif;
+  font-family: "Rubik", serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  margin: 6rem;
 }
 
 .card
 {
-  width: 400px;
+
   background: rgb(255,166,0);
   background: linear-gradient(0deg, #76267a 0%, #db8cd5 100%, #76267a 0%);
   border: 20px solid yellow;
@@ -106,9 +114,26 @@ tr{
     align-items: center;
 }
 
+table{
+  width: 400px;
+  height: 500px;
+}
+
 .td-dados{
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+
+div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 25rem;
+}
+
+div img {
+  height: 18.75rem; 
+  width: 12.625rem;
 }
