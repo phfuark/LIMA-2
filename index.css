@@ -6,12 +6,11 @@
 
 body 
 {
-  background-color: #F6CF57;
+  background-color: #b355ac;
   text-align: center;
   font-family: "Rubik", serif;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 6rem;
 }
@@ -91,6 +90,7 @@ hr
 {
   text-align: center;
   font-size: 24pt;
+  font-weight: bold;
 }
 .simbolos
 {
@@ -127,13 +127,51 @@ table{
 }
 
 
-div {
+div div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 25rem;
 }
 
-div img {
+div div img {
   height: 18.75rem; 
   width: 12.625rem;
+}
+
+.crafting {
+  font-size: 20px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.clear {
+  clear: both;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.grid-element {
+  background-color: #8b8b8b;
+  border-top: thick double #373737;
+  border-left: thick double #373737;
+  border-right: double #FFFFFF;
+  border-bottom: double #FFFFFF;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.grid-element img{
+  margin: 5px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.arrow {
+  margin: auto;
+  float: left;
 }

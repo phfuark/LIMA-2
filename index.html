@@ -10,83 +10,122 @@
 
     <title>PokemonCard</title>
     <link rel="stylesheet" href="/index.css" />
-
-    
   </head>
   <body>
-    <table class="card">
-      <tr style="display: flex; justify-content: space-between;">
-        <td class="titulo-card">
-          Paulo Henrique Preciliano
-        </td>
-        <td class="hp">
-          130 HP <img width="20px" src="./images/psiquica-energy.png">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img class="img-pokemon" src="./images/gengar.png" />
-        </td>
-      </tr>
-      <tr>
-        <td class="td-dados"> 
-          <p class="dados">
-            Shadow Pokémon. Length: 178 cm, Weight: 76 kg.
-          </p>
-        </td>
-      </tr>
-      <tr class="text">
-        <td>
-          <img width="20px" src="./images/psiquica-energy.png">
-          <img width="20px" src="./images/psiquica-energy.png">
-        </td>
-        <td class="texto-card" width="75%"> 
-          <p >
-            <span class="destaque">Pokémon Intoduction </span><br>I´m Paulo Henrique Preciliano da Silva;<br>
-            I like BackEnd development;<br>
-            I´m 17 years old;<br>
-            I want to be a FullStack Developer.
-          </p>
-        </td>
-        <td class="efeito-dados">
-          40
-        </td>
-      </tr>
-      <tr>
-        <tr class="text">
-          <td>
-            <img width="20px" src="./images/psiquica-energy.png">
-            <img width="20px" src="./images/psiquica-energy.png">
-          </td>
-          <td class="texto-card" width="75%"> 
-            <p >
-              <span class="destaque">So much text </span><br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            </p>
-          </td>
-          <td class="efeito-dados">
-            80
-          </td>
-        </tr>
-
-      </tr>
     
-        <td width="100%">
-          <p class="rodape-card">
-            By Paulo Preciliano © 
-          </p>
-        </td>
-      </tr>
-    </table>
-    <div style="display: flex; flex-direction: column; align-items: baseline;">
-      <h1 style="color: aliceblue;">Thinks i like:</h1>
-      <div>
-        <img src="./images/marriage-story.png">  
-        <img src="./images/lana.png">  
-        <img src="./images/hunterxhunter-manga.png">  
-        <img src="./images/hunterxhunter.png">  
-    </div>
-    </div>
+    <!-- Minecraft Table -->
+    <div id='grid'>
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/killua.png' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/SweaterWeather.png' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/marriage-story.png' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/soldier.png' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/pokwmon.gif' />
+      </div>
+  
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/bubble.png' />
+      </div>
+  
+      <div class='grid-element'>
+        <img class ="displayed" src='' />
+      </div>
     
+      <div class='grid-element'>
+        <img class ="displayed" src='./images/grid/UHAAAAAAAA.png' />
+      </div>
+    </div>
+      <table class="card">
+        <thead>
+          <tr style="display: flex; justify-content: space-between;">
+            <td class="titulo-card">
+              Paulo Henrique Preciliano
+            </td>
+            <td class="hp">
+              130 HP <img width="20px" src="./images/psiquica-energy.png" alt="Energia psíquica">
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img class="img-pokemon" src="./images/gengar.png" alt="Imagem do Pokémon Gengar">
+            </td>
+          </tr>
+          <tr>
+            <td class="td-dados"> 
+              <p class="dados">
+                Shadow Pokémon. Height: 178 cm, Weight: 76 kg.
+              </p>
+            </td>
+          </tr>
+          <tr class="text">
+            <td>
+              <img width="20px" src="./images/psiquica-energy.png" alt="Energia psíquica">
+              <img width="20px" src="./images/psiquica-energy.png" alt="Energia psíquica">
+            </td>
+            <td class="texto-card" width="75%"> 
+              <p>
+                <span class="destaque">Pokémon Introduction</span><br>
+                I'm Paulo Henrique Preciliano da Silva;<br>
+                I like Backend development;<br>
+                I'm 17 years old.
+              </p>
+            </td>
+            <td class="efeito-dados">
+              40
+            </td>
+          </tr>
+          <tr class="text">
+            <td>
+              <img width="20px" src="./images/psiquica-energy.png" alt="Energia psíquica">
+              <img width="20px" src="./images/psiquica-energy.png" alt="Energia psíquica">
+            </td>
+            <td class="texto-card" width="75%"> 
+              <p>
+                <span class="destaque">So much text</span><br>
+                Film: Marriage Story;<br>
+                Artist: Lana Del Rey (I also hate colic);<br>
+                Book: Hunter X Hunter;<br>
+                Series: Hunter X Hunter.<br>
+                (I read the manga before the series, and seriously, it's so 
+                faithful to the original work)
+              </p>
+            </td>
+            <td class="efeito-dados">
+              80
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" width="100%">
+              <p class="rodape-card">
+                By Paulo Preciliano ©
+              </p>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+  
+    </div>
+  </section>
   </body>
 </html>
