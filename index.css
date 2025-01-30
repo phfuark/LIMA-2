@@ -1,11 +1,10 @@
-*{
+* {
   padding: 0;
   border: 0;
   box-sizing: border-box;
 }
 
-body 
-{
+body {
   background-color: #b355ac;
   text-align: center;
   font-family: "Rubik", serif;
@@ -15,10 +14,9 @@ body
   margin: 7rem;
 }
 
-.card
-{
+.pokemon-card {
   width: 25rem;
-  background: rgb(255,166,0);
+  background: rgb(255, 166, 0);
   background: linear-gradient(0deg, #76267a 0%, #db8cd5 100%, #76267a 0%);
   border: 20px solid yellow;
   border-radius: 10px;
@@ -26,8 +24,7 @@ body
   padding-inline: 10px;
 }
 
-.img-pokemon
-{
+.pokemon-image {
   width: 400px;
   height: 250px;
   object-fit: cover;
@@ -35,16 +32,13 @@ body
   box-shadow: 2px 2px 5px 0px #333333;
 }
 
-.titulo-card
-{
+.card-title {
   font-weight: bold;
   text-align: left;
   font-size: 14pt;
-
 }
 
-.hp
-{
+.card-hp {
   color: red;
   display: flex;
   align-items: center;
@@ -52,77 +46,69 @@ body
   gap: 5px;
 }
 
-.dados
-{
+.data {
   font-size: 8pt;
   padding: 2px;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,165,32,1) 100%); 
-  font-weight: 700; 
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(218, 165, 32, 1) 100%);
+  font-weight: 700;
   font-style: italic;
 }
 
-.texto-card
-{
+.card-description {
   text-align: left;
   font-size: 10pt;
   padding-left: 10px;
 }
 
-.destaque
-{
+.highlight {
   font-weight: bold;
   text-align: left;
   font-size: 13pt;
-  color:#000000;
+  color: #000000;
 }
-hr
-{
+
+hr {
   border: 1px solid black;
 }
-.efeito
-{
+
+.effect {
   text-align: center;
   font-size: 8pt;
 }
 
-.efeito-dados
-{
+.effect-data {
   text-align: center;
   font-size: 24pt;
   font-weight: bold;
 }
-.simbolos
-{
+
+.symbols {
   font-size: 8pt;
   text-align: center;
   vertical-align: middle;
-  
 }
-.rodape-card
-{
+
+.card-footer {
   border: 4px outset #daa520;
   text-align: left;
   font-size: 8pt;
   padding: 2px;
 }
 
-tr{
-   width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-
-.td-dados{
+.td-data {
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
 
 div div {
   display: grid;
@@ -130,7 +116,7 @@ div div {
 }
 
 div div img {
-  height: 18.75rem; 
+  height: 18.75rem;
   width: 12.625rem;
 }
 
@@ -149,7 +135,7 @@ div div img {
   grid-template-columns: repeat(3, 3fr);
 }
 
-.grid-element {
+.grid-item {
   background-color: #8b8b8b;
   border-top: thick double #373737;
   border-left: thick double #373737;
@@ -160,14 +146,14 @@ div div img {
   float: left;
 }
 
-.grid-element img{
+.grid-item img {
   margin: 5px;
   width: 180px;
   height: 180px;
   object-fit: cover;
 }
 
-div h1{
+div h1 {
   font-family: 'Minecraft', sans-serif;
   color: #000000;
   font-size: 4rem;
