@@ -10,14 +10,14 @@ body
   text-align: center;
   font-family: "Rubik", serif;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 6rem;
+  justify-content: space-between;
+  align-items: end;
+  margin: 7rem;
 }
 
 .card
 {
-
+  width: 25rem;
   background: rgb(255,166,0);
   background: linear-gradient(0deg, #76267a 0%, #db8cd5 100%, #76267a 0%);
   border: 20px solid yellow;
@@ -114,10 +114,7 @@ tr{
     align-items: center;
 }
 
-table{
-  width: 400px;
-  height: 500px;
-}
+
 
 .td-dados{
   width: 100%;
@@ -130,7 +127,6 @@ table{
 div div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 25rem;
 }
 
 div div img {
@@ -171,7 +167,9 @@ div div img {
   object-fit: cover;
 }
 
-.arrow {
-  margin: auto;
-  float: left;
+div h1{
+  font-family: 'Minecraft', sans-serif;
+  color: #000000;
+  font-size: 4rem;
+  margin: 10px;
 }
